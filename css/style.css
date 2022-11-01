@@ -89,7 +89,12 @@ figure {
   border-radius: 0px;
   background-color: #2f303a;
   height: 600px;
+  background-image: url(/images/home/backround.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
+
 .slogan {
   height: 120px;
   width: 696px;
