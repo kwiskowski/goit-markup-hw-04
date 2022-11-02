@@ -20,6 +20,36 @@ figure {
   margin: 0px;
   padding: 0px;
 }
+
+.mail:hover svg {
+  fill: #2196f3;
+}
+.mail svg {
+  position: sticky;
+}
+
+.icon-box {
+  display: flex;
+  height: 120px;
+  width: 270px;
+  border-radius: 4px;
+  background-color: #f5f4fa;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-media-box {
+  display: flex;
+  width: 206px;
+  height: 44px;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.social-media-icon {
+  width: 44px;
+  height: 44px;
+}
 .header {
   height: 80px;
   border-bottom: #ececec;
@@ -378,7 +408,7 @@ button:hover {
 
 .members {
   width: 270px;
-  height: 368px;
+  height: 428px;
   box-shadow: 0 1px 2px #525050;
   display: flex;
   flex-wrap: nowrap;
