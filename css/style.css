@@ -38,6 +38,10 @@ figure {
   justify-content: center;
 }
 
+.icon-box:hover {
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
 .client-box {
   display: flex;
   align-items: center;
@@ -46,7 +50,6 @@ figure {
   width: 170px;
   border-radius: 4px;
   border: 1px solid #afb1b8;
-  transition: all 1s;
 }
 
 .client-box:hover {
@@ -83,7 +86,6 @@ figure {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  transition: all 1s;
   fill: #afb1b8;
 }
 
@@ -100,7 +102,6 @@ figure {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  transition: all 1s;
   fill: #ffffff;
   background-color: #ffffff1a;
 }
@@ -165,7 +166,14 @@ figure {
   left: 1263px;
   top: 32px;
   border-radius: nullpx;
-  /* margin-left: 50px; */
+}
+
+.phone svg {
+  position: sticky;
+}
+
+.phone:hover {
+  color: var(--secondary-color);
 }
 
 .phone-footer {
@@ -177,12 +185,18 @@ figure {
   left: 0px;
   margin-top: 0px;
   border-radius: 0px;
-  background-color: #2f303a;
   height: 600px;
-  background-image: url(/images/home/backround.jpg);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(/images/home/backround.jpg);
+  max-width: 1600px;
+  margin: auto;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-color: #2f303a;
 }
 
 .slogan {
@@ -493,21 +507,22 @@ button:hover {
   width: 100%;
   height: 648px;
   background-color: #f5f4fa;
-  /* list-style-position: inside;
-  list-style-type: none; */
 }
 
 .members {
   width: 270px;
   height: 428px;
-  box-shadow: 0 1px 2px #525050;
   display: flex;
   flex-wrap: nowrap;
   align-content: center;
   align-items: center;
   justify-content: flex-start;
   background-color: #ffffff;
+  box-shadow: 0px 2px 1px 0px #00000033;
+  box-shadow: 0px 1px 1px 0px #00000024;
+  box-shadow: 0px 1px 3px 0px #0000001f;
 }
+
 .item {
   font-size: 18px;
   font-weight: 700;
@@ -562,9 +577,14 @@ figure {
   border: 1px solid #eeeeee;
 }
 
+.product-card:hover {
+  box-shadow: 1px 4px 6px 0px #00000029;
+  box-shadow: 0px 4px 4px 0px #0000000f;
+  box-shadow: 0px 1px 1px 0px #0000001f;
+}
+
 .client {
   fill: #afb1b8;
-  transition: all 1s;
 }
 
 .client:hover {
